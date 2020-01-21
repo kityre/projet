@@ -1,0 +1,5 @@
+{% block title %} Blog {% endblock %}
+
+{% for article in articles %}
+	{{ article.titre }} -	{{ article.prix }} <br>
+{% endfor %}
